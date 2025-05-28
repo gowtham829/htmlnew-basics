@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: azure;
+            text-align: center;
+        }
+        ul {
+         list-style-type: none;
+         overflow: hidden;
+         background-color: azure;
+         position: fixed;
+         margin: 0;
+         padding: 0;
+         width: 100%;
+
+            
+        }
+        li{
+           float: left; 
+        }
+        li a {
+            display:block ;
+            text-align: center;
+            padding: 14px 16px;
+            color:brown;
+            text-decoration: none;
+
+
+        }
+        li a:hover:not(.active){
+            background-color:indianred;
+        }
+        .active{
+            background-color:moccasin;
+        }
+    
+        
+    </style>
+    
+</head>
+<body>
+    
+    <ul>
+        <li><a href="kerala tourisum navigation bar.html" >Home</a></li>
+        <li><a href="keratournavpart2.html" class="active">Gallery</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">About</a></li>
+    </ul> <br>
+    <h1>Kerala Tourisum</h1>
+    <img src="Athirapally Waterfalls.jpg" height="300" width="300" alt="image not found"> 
+    <img src="idukki dam.jpg" height="300" width="300" alt="image not found"> 
+    <img src="illikal kallu.jpg" height="300" width="300" alt="image not found">
+    <p style="font-size: 20px;">Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers</p>
+    
+
+
+</body>
+</html>

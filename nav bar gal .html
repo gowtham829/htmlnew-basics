@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: antiquewhite;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: brown;
+            text-align: center;
+            padding:14px 16px ;
+            text-decoration: none;
+        }
+        li a:hover:not(.active){
+            background-color: rgb(246, 192, 121);
+        }
+        .active{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="" >home</a></li>
+        <li><a href="" class="active" >gallery</a></li>
+        <li><a href="" >contact</a></li>
+        <li><a href="">about</a></li>
+    </ul>
+</body>
+</html>
