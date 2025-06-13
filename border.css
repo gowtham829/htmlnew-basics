@@ -1,0 +1,30 @@
+.first{
+    text-align: center;
+    color: rgb(165, 243, 243);
+    
+}
+.second{
+    border-style: solid;
+    border-width:1px ;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 300px;
+    
+}
+.third{
+    border-style: dashed;
+    border-color: rgb(248, 104, 104);
+    
+}
+.fourth{
+    border-style:double;
+    outline-style: dashed;
+    outline-offset: 4px;
+}
+div{
+    border: 1px solid red;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 100px;
+}
